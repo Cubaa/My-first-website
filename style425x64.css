@@ -1,0 +1,1340 @@
+@media (min-width:425px)
+{
+body{
+    position: relative;
+    height: 100vh;
+    width:100%;
+   
+}
+nav div.wrapperLogoMenu{
+    display: none;
+}
+nav{
+ position: fixed;
+ top:0;
+ right: 0;
+ left:0;
+
+ z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10vh;
+    background-color: #4633af;
+transition: .3s ease;
+overflow: hidden;
+
+}
+div.websiteLogo{
+    position: relative;
+    width: 40%;
+    height: 10vh;
+  
+    padding: 10px;
+   }
+   
+   div.websiteLogo  img{
+       position: absolute;
+       top:50%;
+       left:50%;
+       transform: translate(-50%, -50%);
+    font-size: 113px;
+    height:34px;
+    margin-left: 10px;
+    
+}
+
+div.barsMenu{
+position: relative;
+width:60%;
+height: 10vh;
+
+padding: 10px;
+}
+div.barsMenu i.fa-bars,div.barsMenu i.fa-times {
+    position: absolute;
+    top:50%;
+    left:65%;
+    transform: translateY(-50%);
+    color:#FFF;
+    
+    font-size: 32px;
+}
+div.barsMenu i.fa-bars{
+    display:block;
+}
+div.barsMenu i.fa-times{
+    display:none;
+}
+nav.dropDown{
+    height: 37vh;
+   
+}
+
+nav ul{
+    font-family: 'Montserrat', sans-serif;
+
+    width: 100%;
+    height: 27vh;
+    background-color: #4633af;
+  
+}
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 5px 5px 5px 25px;
+    
+
+}
+nav ul li:first-child{
+    padding-top: 17px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    padding: 15px 15px 15px 0px;
+    cursor: pointer;
+    
+}
+ nav ul li:nth-child(1) a{
+  color:rgb(0, 201, 219);
+} 
+
+section.websiteHeader{
+    min-height: 100vh;
+    background:linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url(images/header-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 130px;
+    
+}
+
+main section.websiteHeader .appForwhoWrapper{
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+
+    
+}
+
+main section.websiteHeader .appForwhoWrapper h1{
+    font-size: 40px;
+    color:#fff;
+    
+}
+main section.websiteHeader .appForwhoWrapper span.forWho{
+    font-size: 40px;
+font-weight: 700;
+color:#fff;
+padding-right: 15px;
+}
+main section.websiteHeader .appForwhoWrapper span.autoChangeTxt
+{
+    font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+color:rgb(64, 224, 238);
+}
+main section.websiteHeader .appForwhoWrapper p{
+    padding:15px 10px 0 10px;
+    color:rgb(241, 241, 248);
+    line-height: 25px;
+    font-size: 15px;
+}
+.btnsToMobileShop{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    height: 25vh;
+justify-content: center;
+align-items: center;
+}
+.btnsToMobileShop button{
+    position: relative;
+    width: 60%;
+    height: 7.5vh;
+    border: none;
+    border-radius: 25px;
+background-color: rgb(0, 201, 219);
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+color:#fff;
+cursor: pointer;
+
+}
+.btnsToMobileShop button:nth-child(1){
+    margin-bottom: 20px;
+}
+.btnsToMobileShop button i{
+    position: absolute;
+    top:30%;
+    left:23%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 20px;
+   
+}
+div.phones{
+    padding-top: 31px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 95px;
+}
+div.phones img{
+    width: 90%;
+    
+}
+section.sliderGalerryWorkers{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    height: 70vh;
+    background-color:rgb(38, 36, 49);
+
+}
+div.galerryWorkers{
+    position: relative;
+    display: flex;
+  width: 100%;
+}
+div.worker, div#firstClone, div#lastClone{
+    min-width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+div.worker img, div#firstClone img, div#lastClone img{
+    
+    padding-top:50px;
+    border-radius: 50%;
+}
+div.worker p, div#firstClone p, div#lastClone p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color:#fff;
+    padding-top:40px;
+    font-style: italic;
+    
+}
+div.worker span, div#firstClone span, div#lastClone span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+color:#fff;
+    padding-top:30px;
+
+
+    
+}
+div.rightArrow{
+    position: absolute;
+    top:55%;
+    right:5%;
+    transform: translateY(-50%);
+    width:25px;
+    height: 25px;
+    
+}
+div.leftArrow{
+    position: absolute;
+    top:55%;
+    left:5%;
+    transform: translateY(-50%);
+    width:25px;
+    height: 25px;
+}
+div.rightArrow i, div.leftArrow i{
+color: #fff;
+
+}
+
+section.featuresSection{
+    background-color: #2f2c3d;
+}
+div.featuresMainInfo{
+    padding: 90px 20px 50px 20px;
+    text-align: center;
+}
+div.featuresMainInfo h2{
+    font-size:36px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#fff;
+}
+div.featuresMainInfo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: rgb(241, 241, 248);;
+    padding-top:20px ;
+}
+/*div.changeFeature{
+    width:100%;
+    text-align: center;
+}*/
+div.changeFeature span{
+    display: block;
+}
+div.configuring, div.tracking, div.monitoring{
+    text-align: center;
+}
+div.configuring{
+    padding-bottom: 35px;
+}
+div.tracking{
+    padding-bottom: 35px;
+}
+div.monitoring{
+    padding-bottom: 80px;
+}
+div.configuring span{
+    border-bottom: 3px solid rgb(0, 201, 219);
+padding: 7px 15px 7px 15px;
+color: #00c9db;
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 700;
+}
+div.tracking span{
+    border-bottom: 3px solid rgb(241, 241, 248);
+padding: 7px 20px 7px 20px;
+color: rgb(241, 241, 248);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 700;
+}
+div.monitoring span{
+    border-bottom: 3px solid rgb(241, 241, 248);
+padding: 7px 15px 7px 15px;
+color: rgb(241, 241, 248);
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: 700;
+}
+div.monitoring i.fa-search{
+    font-size: 19px;
+    color:rgb(241, 241, 248);
+}
+div.tracking i.fa-binoculars{
+    font-size: 15px;
+    color:rgb(241, 241, 248);
+}
+div.configuring i.fa-cog{
+    font-size: 19px;
+
+}
+div.goalSetting{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px;
+    padding-bottom: 50px;
+    
+}
+div.goalSetting div.compassIcon{
+    background-color: rgb(0, 201, 219);
+
+    height: 16vw;
+    border-radius:50%;
+    flex-basis: 16vw;
+
+}
+div.infoGoalSetting{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.goalSetting div.infoGoalSetting h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.goalSetting div.infoGoalSetting p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.goalSetting div.compassIcon i{
+    color: #fff;
+    font-size:35px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+div.visualEditor{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px;
+    padding-bottom: 50px;
+
+    
+}
+div.visualEditor div.fileCodeIcon{
+background-color: rgb(0, 201, 219);
+
+height: 16vw;
+border-radius:50%;
+flex-basis: 16vw;
+
+
+}
+div.infoVisualEditor{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.visualEditor div.infoVisualEditor h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.visualEditor div.infoVisualEditor p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.visualEditor div.fileCodeIcon i{
+    color: #fff;
+    font-size:30px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+
+div.refinedOptions{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px ;
+    
+}
+div.refinedOptions div.diamentIcon{
+    background-color: rgb(0, 201, 219);
+
+    height: 16vw;
+    border-radius:50%;
+    flex-basis: 16vw;
+
+}
+div.infoRefinedOptions{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.refinedOptions div.infoRefinedOptions h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.refinedOptions div.infoRefinedOptions p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.refinedOptions div.diamentIcon i{
+    color: #fff;
+    font-size:30px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+
+div.featuresPhone
+{
+    width: 83%;
+    margin: 0 auto;
+    padding: 80px 20px 80px 20px;
+}
+div.featuresPhone img{
+    margin: 0 auto;
+    min-width:100%;
+    
+}
+
+
+div.calendarInput{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px;
+    padding-bottom: 50px;
+
+    
+}
+div.calendarInput div.calendarIcon{
+    background-color: rgb(0, 201, 219);
+
+    height: 16vw;
+    border-radius:50%;
+    flex-basis: 16vw;
+
+}
+div.infoCalendarInput{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.calendarInput div.infoCalendarInput h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.calendarInput div.infoCalendarInput p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.calendarInput div.calendarIcon i{
+    color: #fff;
+    font-size:30px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+
+div.easyReading{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px;
+    padding-bottom: 50px;
+
+    
+}
+div.easyReading div.bookmarkIcon{
+    background-color: rgb(0, 201, 219);
+
+    height: 16vw;
+    border-radius:50%;
+    flex-basis: 16vw;
+
+}
+div.infoEasyReading{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.easyReading div.infoEasyReading h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.easyReading div.infoEasyReading p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.easyReading div.bookmarkIcon i{
+    color: #fff;
+    font-size:30px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+
+div.goodFoundation{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left:20px;
+    padding-bottom: 50px;
+
+    
+}
+div.goodFoundation div.cubeIcon{
+    background-color: rgb(0, 201, 219);
+
+    height: 16vw;
+    border-radius:50%;
+    flex-basis: 16vw;
+
+}
+div.infoGoodFoundation{
+   padding:0 20px 0 12px;
+    text-align: left;
+    flex-basis: 80%;
+}
+div.goodFoundation div.infoGoodFoundation h3{
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.goodFoundation div.infoGoodFoundation p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.goodFoundation div.cubeIcon i{
+    color: #fff;
+    font-size:30px;
+    font-weight: normal;
+    line-height: 16vw;
+
+}
+div.wrapperFeatures1{
+    display: block;
+}
+div.wrapperFeatures2 div.featuresPhone2
+{ 
+    width: 83%;
+    margin: 0 auto;
+    padding: 0 10px 40px 10px;
+}
+div.featuresPhone2 img{
+    margin: 0 auto;
+    min-width:100%;
+    
+}
+div.trackingInfo{
+    width:90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 50px;
+}
+div.trackingInfo h2{
+    font-size:28px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+    padding-bottom: 20px;
+
+}
+div.trackingInfo p{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.trackingInfo p a{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00c9db
+
+}
+div.wrapperFeatures2{
+    display: none;
+}
+div.monitoringInfo{
+    width:90%;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 50px;
+}
+div.monitoringInfo h2{
+    font-size:28px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+    padding-bottom: 20px;
+
+}
+div.monitoringInfo p{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+
+}
+div.monitoringInfo p a{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00c9db
+
+}
+div.wrapperFeatures3 div.featuresPhone3
+{
+    width: 83%;
+    margin: 0 auto;
+    padding: 0 10px 100px 10px;
+}
+div.featuresPhone3 img{
+    margin: 0 auto;
+    min-width:100%;
+    
+}
+div.wrapperFeatures3{
+    display: none;
+}
+section.videoAboutApp{
+    background-image: url(images/video-background.jpg);
+   
+    background-position: center;
+    background-size: cover;
+}
+div.wrapperAboutApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+
+}
+div.wrapperAboutApp div{
+    position: relative;
+text-align: center;
+  width: 100%;
+  
+}
+div.wrapperAboutApp div img{
+
+    max-width:90%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+div.wrapperAboutApp h2{
+    font-family: 'Montserrat', sans-serif;
+        color: rgb(241, 241, 248);
+text-transform: uppercase;
+    font-size: 36px;
+    padding: 100px 0 30px 0;
+}
+div.wrapperAboutApp p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+    font-size: 16px;
+    padding: 0 20px 70px 20px;
+}
+div.wrapperAboutApp div span.playCircle i.fa-play{
+    position: absolute;
+    top:50%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+color: #fff;
+}
+
+div.wrapperAboutApp div span.playCircle{
+    position: absolute;
+    top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #4eaaff;
+}
+span.animationCircle{
+    position: absolute;
+    width:80px;
+    height: 80px;
+    top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+background-color: #4eaaff;;
+border-radius: 50%;
+z-index: 0;
+animation: animationCircle 1s linear infinite forwards;
+animation-play-state: running;
+
+}
+@keyframes animationCircle{
+    0%{
+        width:80px;
+    height: 80px;
+        opacity: 0;
+        
+    }
+    30%{
+        width:90px;
+    height: 90px;
+        opacity: 1;
+    }
+  
+    100%{
+        width:130px;
+    height: 130px;
+        opacity: 0;
+    }
+    /*50%{
+        width:60px;
+    height: 60px;
+        opacity: 0.3;
+    }
+    0%{
+        width:120px;
+    height: 120px;
+        opacity: 0.1;
+    }*/
+}
+section.detailsOptions{
+    position: relative;
+    background-color: #262431;
+    padding-top:110px;
+    padding-bottom: 85px;
+    
+}
+div.infoGoalsSetting div, div.infoCalendarInput2 div{
+text-align: center;
+padding: 15px;
+width:100%;
+padding-bottom: 55px;
+}
+
+    
+div.infoGoalsSetting img, div.infoCalendarInput2 img{
+    max-width: 100%;
+    
+}
+div.infoCalendarInput2 img{
+    padding-top: 40px;
+}
+div.infoGoalsSetting h2, div.infoCalendarInput2 h2{
+    color: rgb(241, 241, 248); 
+     font-family: 'Montserrat', sans-serif;
+font-size: 28px;
+padding: 0px 20px 20px 20px;
+
+}
+div.infoCalendarInput2 h2{
+    padding-top: 20px;
+
+}
+div.infoGoalsSetting p, div.infoCalendarInput2 p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+    padding: 0px 20px 20px 25px;
+    width: 100%;
+
+}
+div.infoGoalsSetting button, div.infoCalendarInput2 button{
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    border-radius: 35px;
+    color: rgb(241, 241, 248);
+background-color: #00c9db;
+    font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+margin-left: 20px;
+cursor: pointer;
+}
+div.lightBoxGoalsSetting{
+    width:96%;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #2f2c3d;
+    padding-bottom: 32px;
+    display: none;
+
+    
+    
+}
+div.lightBoxCalendarInput{
+    width:96%;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: #2f2c3d;
+    padding-bottom: 32px;
+    display: none;
+}
+div.lightBoxGoalsSetting div.imageLightBoxGoalsSetting, 
+div.lightBoxCalendarInput div.imageLightBoxCalendarInput
+{
+    width:100%;
+    text-align: center;
+    padding: 20px 20px 40px 20px;
+
+    
+}
+div.imageLightBoxGoalsSetting img, div.imageLightBoxCalendarInput img{
+    max-width:100%;
+}
+div.lightBoxGoalsSetting div h2:nth-of-type(1),
+div.lightBoxCalendarInput div h2:nth-of-type(1)
+{
+    font-size: 28px;
+    color: rgb(241, 241, 248);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-left:15px ;
+
+
+}
+div.lightBoxGoalsSetting div h2:nth-of-type(2),
+div.lightBoxCalendarInput div h2:nth-of-type(2)
+{
+    font-size: 22px;
+    color: rgb(241, 241, 248);
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+    padding-left:15px ;
+
+
+}
+div.lightBoxGoalsSetting div p,
+div.lightBoxCalendarInput div p
+{
+    font-size: 14px;
+    color: rgb(241, 241, 248);
+    font-family: 'Open Sans', sans-serif;
+}
+div.lightBoxGoalsSetting div span.lineLightBoxGoalsSetting,
+div.lightBoxCalendarInput div span.lineLightBoxCalendarInput
+{
+    display:block;
+    width:60px;
+    height: 2px;
+    background-color: #00c9db;
+    margin-left:15px;
+
+}
+div.lightBoxGoalsSetting div p:nth-of-type(1),
+div.lightBoxCalendarInput div p:nth-of-type(1)
+{
+    padding-top: 16px;
+    padding-bottom: 25px;
+    padding-left:15px ;
+
+}
+div.lightBoxGoalsSetting div p:nth-of-type(2),
+div.lightBoxCalendarInput div p:nth-of-type(2)
+{
+    padding-bottom: 25px;
+    padding-left:15px ;
+
+}
+div.lightBoxGoalsSetting div p:nth-of-type(3),
+div.lightBoxCalendarInput div p:nth-of-type(3)
+{
+    padding-left:15px ;
+    padding-bottom: 5px;
+    
+}
+div.iconsLightBoxGoalsSetting,
+div.iconsLightBoxCalendarInput
+{
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+div.iconsLightBoxGoalsSetting i,
+div.iconsLightBoxCalendarInput i
+{
+    color:#00c9db;
+font-size: 17px;
+padding: 5px 10px 5px 10px
+}
+div.iconsLightBoxGoalsSetting span,
+div.iconsLightBoxCalendarInput span
+{
+font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+}
+div.lightBoxGoalsSetting button:nth-of-type(1),
+div.lightBoxCalendarInput button:nth-of-type(1)
+{
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 12px 35px;
+    border-radius: 35px;
+    color: rgb(241, 241, 248);
+background-color: #00c9db;
+    font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+margin-left: 20px;
+cursor: pointer;
+}
+div.lightBoxGoalsSetting button:nth-of-type(2),
+div.lightBoxCalendarInput button:nth-of-type(2)
+{
+    text-transform: uppercase;
+    border: 2px solid #00c9db ;
+    outline: none;
+    padding: 12px 35px;
+    border-radius: 35px;
+    color: #00c9db;
+    background-color: transparent;
+    margin-left: 20px;
+    
+}
+div.lightBoxGoalsSetting i.fa-times,
+div.lightBoxCalendarInput i.fa-times
+{
+    position: absolute;
+    top:1%;
+    left: 94%;
+    color: #f1f1f8;
+    opacity: 0.7;
+    font-size: 21px;
+    cursor: pointer;
+    
+}
+section.phoneSlider{
+   position: relative;
+   background-color: #2f2c3d;
+  
+   overflow: hidden;
+
+}
+section.phoneSlider div.slider{
+    width:100%;
+    display: flex;
+    background-color: #2f2c3d;
+
+
+}
+section.phoneSlider div.slider img{
+    min-width:100%;
+    padding: 20px 30px 20px 30px;
+    background-color: #2f2c3d;
+
+}
+section.phoneSlider div.rightArrowPhoneSlider{
+    position: absolute;
+    top:50%;
+    right:2%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+
+}
+section.phoneSlider div.leftArrowPhoneSlider{
+    position: absolute;
+    top:50%;
+    left:2%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+
+}
+section.downloadLeno{
+
+    background-image: url(images/download-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0px 0px 80px 0px;
+}
+section.downloadLeno div.infoAboutLeno{
+    text-align: center;
+}
+section.downloadLeno div.infoAboutLeno h2{
+    font-size: 36px;
+    color: rgb(241, 241, 248);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 100px 40px 30px 40px;
+}
+section.downloadLeno div.infoAboutLeno p{
+font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(241, 241, 248);
+    padding: 0px 18px 0px 18px;
+}
+
+div.infoAboutLeno div.btnDownloadWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 40px;
+}
+div.infoAboutLeno div.btnDownloadWrapper button{
+    width: 60%;
+    height: 7.5vh;
+    border: none;
+    border-radius: 25px;
+background-color: rgb(0, 201, 219);
+font-family: 'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+color:#fff;
+cursor: pointer;
+}
+div.infoAboutLeno div.btnDownloadWrapper button:nth-of-type(1){
+    margin-bottom: 20px;
+}
+div.imageDownload{
+    width: 100%;
+    padding: 20px;
+}
+div.imageDownload img{
+    max-width: 100%;
+}
+section.counters{
+    background-color: #262431;
+}
+
+section.counters div.countersWrapper{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 80px 0 80px 0;
+background-color: #262431;
+
+}
+section.counters div.countersWrapper div{
+    flex-basis: 50%;
+    height: 19vh;
+    background-color: #262431;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.counters div.countersWrapper div span{
+    color: white;
+    
+}
+section.counters div.countersWrapper div span:nth-of-type(1){
+    
+    font-size: 56px;
+    color: rgb(241, 241, 248);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+section.counters div.countersWrapper div span:nth-of-type(2){
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 201, 219);
+
+}
+section.contactForm{
+    width: 100%;
+    background-image: url(images/contact-background.jpg);
+}
+section.contactForm div.contactInfo {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+}
+section.contactForm div.contactInfo h2{
+    color: #f1f1f8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 70px 0 30px 0;
+
+}
+section.contactForm div.contactInfo p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f8;
+    padding: 0px 15px 15px 15px;
+}
+section.contactForm div.contactInfo .address, .phone, .mail{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f8;
+    padding: 0px 15px 15px 15px;
+}
+section.contactForm div.contactInfo .address i.fa-map-marker, .phone i.fa-phone,
+.mail i.fa-envelope
+{
+    color: rgb(0, 201, 219);
+    padding-right: 10px;
+
+}
+section.contactForm div.contactInfo span.phone,
+section.contactForm div.contactInfo span.mail
+{
+    text-decoration: underline;
+}
+section.contactForm div.contactInfo span.mail
+{
+    padding-bottom: 70px;
+}
+section.contactForm form{
+    
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+section.contactForm form input:nth-of-type(1),
+section.contactForm form input:nth-of-type(2),
+section.contactForm form textarea
+{
+    width: 90%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    background-color: #413d52;
+    border: 1px solid rgb(241, 241, 248);
+    outline-color: rgb(241, 241, 248);
+outline-width: thin;
+margin-bottom: 15px;
+color: rgb(241, 241, 248);
+
+}
+
+section.contactForm form input:nth-of-type(1)::placeholder,
+section.contactForm form input:nth-of-type(2)::placeholder,
+section.contactForm form textarea::placeholder
+{
+    color: rgb(241, 241, 248);
+}
+section.contactForm form button{
+    width: 90%;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px ;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(0, 201, 219);
+margin-bottom: 70px;
+margin-top: 20px;
+}
+footer{
+    background-color: #262431;
+    display: flex;
+    flex-direction: column;
+}
+footer div.aboutLeno{
+    text-align: left;
+display: flex;
+flex-direction: column;
+}
+footer div.aboutLeno h4 {
+font-family: 'Montserrat', sans-serif;
+color: rgb(241, 241, 248);
+padding: 65px 0 25px 15px;
+    font-size: 24px;
+}
+footer div.aboutLeno p{
+font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(241, 241, 248);
+padding: 0 0 28px 15px;
+}
+footer div.importantLinks{
+    display: flex;
+    flex-direction: column;
+}
+footer div.importantLinks h4{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(241, 241, 248);
+    padding: 0 0 28px 15px;
+        font-size: 24px;
+    }
+    footer div.importantLinks span{
+        font-size: 14px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(241, 241, 248);
+    }
+    footer div.importantLinks span:nth-of-type(1){ 
+        padding-bottom: 5px;
+    }
+    footer div.importantLinks span i.fa-square{
+        font-size: 12px;
+        color: rgb(0, 201, 219);
+        margin-left: 12px;
+        margin-right: 7px;
+    }
+    footer div.importantLinks a{
+        color: rgb(0, 201, 219);
+        text-decoration: underline;
+
+    }
+    footer div.importantLinks span:nth-of-type(2){
+        padding-bottom: 45px;
+    }
+    footer div.socialMedia{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div.socialMedia h4{
+        font-family: 'Montserrat', sans-serif;
+color: rgb(241, 241, 248);
+padding: 0px 0 25px 15px;
+    font-size: 24px;
+    }
+    footer div.socialMedia div.allSocialMedia{
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 55px;
+    }
+    footer div.socialMedia div.allSocialMedia div{
+        position: relative;
+        width: 16vw;
+        height: 16vw;
+        border-radius: 50%;
+        background-color: #fff;
+        
+    }
+    footer div.socialMedia div.allSocialMedia div i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 25px;
+    }
+    div.btnBackToUp{
+        position: fixed;
+        top: 89%;
+        left: 81%;
+        width: 14vw;
+        height: 14vw;
+        border-radius:50%;
+        background-color: rgb(0, 201, 219);
+        z-index: 999;
+        cursor: pointer;
+    }
+    div.btnBackToUp i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #fff;
+    }
+ footer div.endLine{
+     width: 100%;
+     height: 0.5px;
+     background-color: grey;
+ }
+ div.copyright{
+     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(241, 241, 248);
+    font-size: 12px;
+font-family: 'Open Sans', sans-serif;
+    
+ }
+ div.copyright a{
+    color: rgb(241, 241, 248);
+  }
+}
